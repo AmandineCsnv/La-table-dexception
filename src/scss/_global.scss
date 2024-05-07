@@ -24,5 +24,13 @@ button {
   color: white;
   border-radius: 10px;
   border: 1px solid var.$btn-color;
-  margin-top: 4rem;
+  margin-top: 2rem;
+}
+textarea {
+  color: gray;
+  font-style: italic;
+  background-color: lightgray;
+}
+input {
+  background-color: lightgray;
 }
