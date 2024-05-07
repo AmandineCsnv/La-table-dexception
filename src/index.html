@@ -7,47 +7,55 @@
       content="Page d'accueil du restaurant La table d'exception"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="shortcut icon"
       href="./img/favicon-32x32.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="/src/scss/index.scss" />
+    <link rel="stylesheet" href="./scss/index.scss" />
     <title>Accueil - La table d'exception</title>
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">La table d'exception</h1>
+      <a class="header__title" href="./index.html">La table d'exception</a>
       <nav class="header__nav">
-        <a href="./pages/réserver.html">Réserver</a>
-        <a href="./pages/la-carte.html">La carte</a>
-        <a href="./pages/nous-trouver.html">Nous trouver</a>
+        <a class="header__nav-item" href="./pages/réserver.html">Réserver</a>
+        <a class="header__nav-item" href="./pages/la-carte.html">La carte</a>
+        <a class="header__nav-item" href="./pages/nous-trouver.html"
+          >Nous trouver</a
+        >
       </nav>
     </header>
     <main class="container">
-      <p class="container__text">
-        Plongez dans un univers raffiné de la haute cuisine où chaque plat est
-        une œuvre d'art, chaque saveur une symphonie de délices, Dans notre
-        restaurant gastronomique, laissez-vous envoûter par les arômes
-        envoûtants, les textures délicates et les saveurs exquises qui
-        éveilleront vos sens.
-      </p>
-      <img
-        class="container__img"
-        src="./img/pexels-rachel-claire-6127322.jpg"
-        alt="Illustration d'un plat"
-      />
+      <div class="container__div">
+        <p class="container__text">
+          Plongez dans un univers raffiné de la haute cuisine où chaque plat est
+          une œuvre d'art, chaque saveur une symphonie de délice. Dans notre
+          restaurant gastronomique, laissez-vous envoûter par les arômes
+          envoûtants, les textures délicates et les saveurs exquises qui
+          éveilleront vos sens.
+        </p>
+        <img
+          class="container__img"
+          src="./img/pexels-rachel-claire-6127322.jpg"
+          alt="Illustration d'un plat"
+        />
+      </div>
     </main>
     <footer class="footer">
       <p class="footer__copyright">© 2024 La table d’exception</p>
-      <nav class="footer__nav">
-        <a class="footer__nav--a-propos" href="./pages/a-propos.html"
-          >À propos</a
-        >
-        <a class="footer__nav--nous-contacter" href="./pages/nous-trouver.html"
-          >Nous contacter</a
-        >
-      </nav>
+      <a class="footer__nav--a" href="./pages/a-propos.html"> À propos</a>
+      <a class="footer__nav--a" href="./pages/nous-trouver.html"
+        >Nous contacter</a
+      >
     </footer>
   </body>
 </html>

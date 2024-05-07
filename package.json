@@ -15,5 +15,8 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.2"
   }
 }

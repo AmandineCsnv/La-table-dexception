@@ -1,4 +1,7 @@
-@use "../../node_modules/scss-reset/reset";
+// @use "../../node_modules/scss-reset/reset";
+// @use "./reset";
+// @use "scss-reset/reset";
+@use "reset-css";
 
 @use "./global";
 
@@ -8,3 +11,4 @@
 @use "./composants/header";
 @use "./composants/list";
 @use "./composants/text";
+@use "./composants/form";

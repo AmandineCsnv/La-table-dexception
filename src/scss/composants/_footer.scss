@@ -1,0 +1,18 @@
+@use "../var";
+
+.footer {
+  background-color: var.$header-color;
+  padding: 2rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  &__copyright {
+    color: var.$text-color;
+  }
+  &__nav--a {
+    color: var.$text-color;
+  }
+}

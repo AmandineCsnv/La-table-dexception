@@ -1,0 +1,27 @@
+@use "../var";
+
+.container {
+  width: 85%;
+  margin: auto;
+  margin-top: 3%;
+  &__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    width: 45%;
+    margin-right: 12%;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px rgb(145, 145, 145);
+  }
+  &__img {
+    width: 35%;
+  }
+  &__cadre {
+    background-color: var.$header-color;
+    padding: 2rem 4rem;
+  }
+}
