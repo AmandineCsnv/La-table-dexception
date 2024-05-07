@@ -18,3 +18,11 @@ a {
 img {
   max-width: 100%;
 }
+button {
+  padding: 0.7rem 3rem;
+  background-color: var.$btn-color;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid var.$btn-color;
+  margin-top: 4rem;
+}
