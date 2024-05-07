@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Page de réservation du restaurant La table d'exception"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- <link rel="stylesheet" href="/src/scss/index.scss" /> -->
+    <title>Réserver - La table d'exception</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">La table d'exception</h1>
+      <nav class="header__nav">
+        <a href="./réserver.html">Réserver</a>
+        <a href="./la-carte.html">La carte</a>
+        <a href="./nous-trouver.html">Nous trouver</a>
+      </nav>
+    </header>
+    <main class="container">
+      <h2 class="container__title">Réserver</h2>
+      <form class="container__form" action="" method="get">
+        <label for="nom" class="container__form--label">Nom</label>
+        <input
+          type="text"
+          required
+          name="nom"
+          id="nom"
+          class="container__form--input"
+        />
+        <label for="prenom" class="container__form--label">Prénom</label>
+        <input
+          type="text"
+          required
+          name="prenom"
+          id="prenom"
+          class="container__form--input"
+        />
+        <label for="email" class="container__form--label">Email</label>
+        <input
+          type="email"
+          required
+          name="email"
+          id="email"
+          class="container__form--input"
+          placeholder="votre-mail@exemple.fr"
+        />
+        <label for="tel" class="container__form--label">Téléphone</label>
+        <input
+          type="tel"
+          required
+          name="tel"
+          id="tel"
+          class="container__form--input"
+          pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"
+        />
+        <label for="date" class="container__form--label"
+          >À quelle date souhaitez-vous venir ?</label
+        >
+        <input
+          type="datetime-local"
+          required
+          name="date"
+          id="date"
+          class="container__form--input"
+          min="2024-01-01T19:00"
+          max="2025-12-31T22:00"
+        />
+        <label for="message">Un message ?</label>
+        <textarea name="message" id="message" rows="10" cols="33">
+Une demande particulière ?</textarea
+        >
+        <button class="container__form--btn" type="submit">Réserver</button>
+      </form>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2024 La table d’exception</p>
+      <nav class="footer__nav">
+        <a class="footer__nav--a-propos" href="./a-propos.html">À propos</a>
+        <a class="footer__nav--nous-contacter" href="./nous-trouver.html"
+          >Nous contacter</a
+        >
+      </nav>
+    </footer>
+  </body>
+</html>
